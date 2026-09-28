@@ -1,4 +1,4 @@
-![Banner](.github.assets.ProjectManagerBanner.jpg)
+![Banner](.github/assets/ProjectManagerBanner.jpg)
 
 # Project Manager
 ---
