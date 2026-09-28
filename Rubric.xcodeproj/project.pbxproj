@@ -79,6 +79,11 @@
 			path = MainWidget;
 			sourceTree = "<group>";
 		};
+		9519F31C306B2F2F003B7138 /* .github */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = .github;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +111,7 @@
 				95175B943069D0060076C15A /* Frameworks */,
 				000000000000000000000020 /* Products */,
 				9519F315306B2B15003B7138 /* README.md */,
+				9519F31C306B2F2F003B7138 /* .github */,
 			);
 			sourceTree = "<group>";
 		};
@@ -146,6 +152,7 @@
 			);
 			fileSystemSynchronizedGroups = (
 				000000000000000000000010 /* MainApp */,
+				9519F31C306B2F2F003B7138 /* .github */,
 			);
 			name = Rubric;
 			productName = MyApp;
