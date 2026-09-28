@@ -43,7 +43,7 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		95175BAA3069D0080076C15A /* Exceptions for "Rubric" folder in "RubricExtension" target */ = {
+		95175BAA3069D0080076C15A /* Exceptions for "MainWidget" folder in "RubricExtension" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
@@ -69,12 +69,12 @@
 			path = MainApp;
 			sourceTree = "<group>";
 		};
-		95175B993069D0060076C15A /* Rubric */ = {
+		95175B993069D0060076C15A /* MainWidget */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				95175BAA3069D0080076C15A /* Exceptions for "Rubric" folder in "RubricExtension" target */,
+				95175BAA3069D0080076C15A /* Exceptions for "MainWidget" folder in "RubricExtension" target */,
 			);
-			path = Rubric;
+			path = MainWidget;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -100,7 +100,7 @@
 			children = (
 				95175BB03069D3370076C15A /* RubricExtension.entitlements */,
 				000000000000000000000010 /* MainApp */,
-				95175B993069D0060076C15A /* Rubric */,
+				95175B993069D0060076C15A /* MainWidget */,
 				95175B943069D0060076C15A /* Frameworks */,
 				000000000000000000000020 /* Products */,
 			);
@@ -160,7 +160,7 @@
 			buildRules = (
 			);
 			fileSystemSynchronizedGroups = (
-				95175B993069D0060076C15A /* Rubric */,
+				95175B993069D0060076C15A /* MainWidget */,
 			);
 			name = RubricExtension;
 			productName = RubricExtension;
@@ -294,7 +294,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "Untitled Project/Assets.xcassets";
+				INFOPLIST_FILE = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MACOSX_DEPLOYMENT_TARGET = 27.0;
@@ -359,7 +359,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "Untitled Project/Assets.xcassets";
+				INFOPLIST_FILE = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MACOSX_DEPLOYMENT_TARGET = 27.0;
@@ -378,10 +378,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
-				CODE_SIGN_ENTITLEMENTS = "Untitled Project/Untitled Project.entitlements";
+				CODE_SIGN_ENTITLEMENTS = MainApp/Rubric.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "Untitled\\ Project/Assets.xcassets";
+				DEVELOPMENT_ASSET_PATHS = MainApp/Assets.xcassets;
 				DEVELOPMENT_TEAM = 7W9NSQY5Y4;
 				ENABLE_APP_SANDBOX = YES;
 				ENABLE_PREVIEWS = YES;
@@ -423,10 +423,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
-				CODE_SIGN_ENTITLEMENTS = "Untitled Project/Untitled Project.entitlements";
+				CODE_SIGN_ENTITLEMENTS = MainApp/Rubric.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "Untitled\\ Project/Assets.xcassets";
+				DEVELOPMENT_ASSET_PATHS = MainApp/Assets.xcassets;
 				DEVELOPMENT_TEAM = 7W9NSQY5Y4;
 				ENABLE_APP_SANDBOX = YES;
 				ENABLE_PREVIEWS = YES;
@@ -474,7 +474,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7W9NSQY5Y4;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Rubric/Info.plist;
+				INFOPLIST_FILE = MainWidget/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Rubric;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -507,7 +507,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7W9NSQY5Y4;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Rubric/Info.plist;
+				INFOPLIST_FILE = MainWidget/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Rubric;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
