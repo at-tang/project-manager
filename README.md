@@ -9,3 +9,4 @@ Project Manager is a Productivity mobile application designed using Swift & the 
 - Integration with Apple Photos; Add photos as attachments to specific tasks 
 - An iOS Widget allowing you to access your latest edited Project
 - Automatically saved, local data through SwiftData
+
