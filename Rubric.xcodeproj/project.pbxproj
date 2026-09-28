@@ -10,6 +10,7 @@
 		95175B963069D0060076C15A /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95175B953069D0060076C15A /* WidgetKit.framework */; };
 		95175B983069D0060076C15A /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95175B973069D0060076C15A /* SwiftUI.framework */; };
 		95175BA93069D0080076C15A /* RubricExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 95175B933069D0060076C15A /* RubricExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		9519F317306B2B1C003B7138 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 9519F315306B2B15003B7138 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		95175B953069D0060076C15A /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
 		95175B973069D0060076C15A /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
 		95175BB03069D3370076C15A /* RubricExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RubricExtension.entitlements; sourceTree = "<group>"; };
+		9519F315306B2B15003B7138 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -103,6 +105,7 @@
 				95175B993069D0060076C15A /* MainWidget */,
 				95175B943069D0060076C15A /* Frameworks */,
 				000000000000000000000020 /* Products */,
+				9519F315306B2B15003B7138 /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -209,6 +212,7 @@
 		000000000000000140000000 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			files = (
+				9519F317306B2B1C003B7138 /* README.md in Resources */,
 			);
 		};
 		95175B913069D0060076C15A /* Resources */ = {
