@@ -46,6 +46,18 @@ struct ProjectDetailView: View {
             
             // All Categories
             List () {
+                
+                // Map View
+                if (!editMode) {
+                    NavigationLink() {ProjectDetailMapView(project: project)} label: {
+
+                        Label("Map View", systemImage: "map")
+
+        
+                    }
+                }
+                
+                
                 ForEach (project.categories) { category in
                     @State var category: Category = category;
                     

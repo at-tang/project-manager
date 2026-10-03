@@ -7,6 +7,13 @@
 import SwiftData
 import SwiftUI
 
+struct Coordinates: Codable {
+    var lat: Double = 43.65 // Default is Toronto
+    var long: Double = -79.38
+    var active: Bool = false
+    
+}
+
 @Model
 class Project {
     var name: String
@@ -52,6 +59,7 @@ class Note {
     var priority: Int
     var active: Bool
     var dateCreated: Double
+    var location: Coordinates
     var category: Category?
     
     @Attribute(.externalStorage) var imageData: Data?
@@ -61,6 +69,7 @@ class Note {
         self.priority = priority;
         self.active = active;
         self.dateCreated = Date().timeIntervalSince1970
+        self.location = Coordinates()
         self.category = category;
         self.imageData = imageData;
 
